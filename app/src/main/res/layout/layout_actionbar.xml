@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:onClick="actionClick"
+        android:clickable="true"
+        android:background="@drawable/home_item_selector"
+        android:id="@+id/left_actionbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/wallpaper_5232470" />
+    <View
+        android:background="#b34de6"
+        android:layout_width="2px"
+        android:layout_height="40dp"
+
+        />
+    <TextView
+        android:background="@drawable/home_item_selector"
+        android:id="@+id/title_actionbar"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="金爷音乐播放器"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        />
+    <View
+        android:background="#b34de6"
+        android:layout_width="2px"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:onClick="actionClick"
+        android:background="@drawable/home_item_selector"
+        android:clickable="true"
+        android:id="@+id/right_actionbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="右边的图标"
+        android:src="@drawable/wallpaper_5234860"
+        />
+</LinearLayout>

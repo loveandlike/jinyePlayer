@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_actionbar" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/wallpaper_5249823"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bdyy"
+            style="@style/textview_homepage"
+            android:drawableTop="@drawable/home_entry_item_normal"
+            android:text="本地音乐"
+            android:textColor="@color/zhi"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#b34de6" />
+
+        <TextView
+            android:id="@+id/gd"
+            style="@style/textview_homepage"
+            android:drawableTop="@drawable/home_entry_item_normal"
+            android:text="歌单"
+            android:textColor="@color/lan"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#b34de6" />
+
+        <TextView
+            android:id="@+id/xz"
+            style="@style/textview_homepage"
+            android:drawableTop="@drawable/home_entry_item_normal"
+            android:text="下载"
+            android:textColor="@color/se3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gj"
+            style="@style/textview_homepage"
+            android:drawableTop="@drawable/home_entry_item_normal"
+            android:text="工具"
+            android:textColor="@color/se"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#b34de6" />
+
+        <TextView
+            android:id="@+id/dt"
+            style="@style/textview_homepage"
+            android:drawableTop="@drawable/home_entry_item_normal"
+            android:text="电台"
+            android:textColor="@color/se2"/>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#b34de6" />
+
+        <TextView
+            android:id="@+id/lk"
+            style="@style/textview_homepage"
+            android:drawableTop="@drawable/home_entry_item_normal"
+            android:text="乐库"
+            android:textColor="@color/se1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="神说：信金爷者，得永生"
+        android:textColor="@color/se2"
+        android:textSize="24sp"
+        android:layout_marginTop="19dp"/>
+</LinearLayout>
